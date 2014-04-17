@@ -1,0 +1,30 @@
+# 0 = field
+# 1 = road
+# 2 = city
+# 3 = monastery
+
+-
+    - id: 0
+    - top: city
+        - region: A
+        - defense: 0
+    - right: road
+        - region: A
+    - bottom: field
+    - left: road
+        - region: A
+-
+    - id: 1
+    - top: field
+    - right: field 
+    - bottom: field
+    - left: field
+    - middle: monastery
+-
+    - id: 2
+    - top: field
+    - right: field 
+    - bottom: road
+    - left: field
+    - middle: monastery
+        
